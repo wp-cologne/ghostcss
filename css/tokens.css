@@ -15,8 +15,6 @@
   --text-3xl: clamp(33.1776px, 24.5235434159px + 2.3077484224vw, 56.8320213298px);
   --space-none: 0;
   --space-xs: 4px;
-  --space-s: 8px;
-  --space-m: 16px;
   --space-l: 24px;
   --space-xl: 32px;
   --space-xxl: 64px;
@@ -53,4 +51,12 @@
   --span-full: 1 / -1;
   --body-bg: var(--bg);
   --body-text: var(--text);
+  --radius-none: 0;
+  --radius-xs: 2px;
+  --radius-s: 4px;
+  --radius-m: 8px;
+  --radius-l: 12px;
+  --radius-xl: 16px;
+  --radius-xxl: 32px;
+  --radius-circle: 500vh;
 }

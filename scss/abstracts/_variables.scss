@@ -33,16 +33,27 @@ $font-size-map: (
 $space-unit: 8px; // Basis
 $space-map: (
   'none': 0,
-  'xs':   $space-unit * 0.5, // 4px
-  's':    $space-unit * 1,   // 8px
-  'm':    $space-unit * 2,   // 16px
-  'l':    $space-unit * 3,   // 24px
-  'xl':   $space-unit * 4,   // 32px
-  'xxl':  $space-unit * 8,   // 64px
-  'huge': $space-unit * 16   // 128px
+  'xs':   $space-unit * 0.5,
+  'l':    $space-unit * 3,
+  'xl':   $space-unit * 4,
+  'xxl':  $space-unit * 8,
+  'huge': $space-unit * 16
 );
 
-// 4. Layout - Grid Config //
+// --- 4. Layout - Grid Config ---
 
 $container-max-width: 1280px; // Standard Breite der Website
 $grid-columns: 12;            // Standard Spaltenanzahl
+
+// --- 5. Radius --- 
+$radius-unit: 4px; // Basis
+$radius-map: (
+  'none': 0,
+  'xs':   $radius-unit * 0.5,
+  's':    $radius-unit * 1,
+  'm':    $radius-unit * 2,
+  'l':    $radius-unit * 3,
+  'xl':   $radius-unit * 4,
+  'xxl':  $radius-unit * 8,
+  'circle': 500vh,
+);

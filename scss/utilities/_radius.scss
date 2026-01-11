@@ -1,0 +1,8 @@
+@use '../abstracts' as a;
+
+
+@each $size, $val in a.$radius-map {
+    .radius--#{$size} {
+        border-radius: var(--border-#{$size});
+    }
+}

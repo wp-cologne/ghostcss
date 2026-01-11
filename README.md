@@ -72,7 +72,7 @@ Nutze jetzt überall in den Eingabefeldern von Bricks deine Variablen (`var(...)
 
 Diese Variablen stehen dir automatisch zur Verfügung:
 
-### 🎨 Farben
+### Farben
 | Variable | Beschreibung |
 | :--- | :--- |
 | `var(--primary)` | Hauptfarbe |
@@ -81,7 +81,7 @@ Diese Variablen stehen dir automatisch zur Verfügung:
 | `var(--text)` | Textfarbe (Body) |
 | `var(--muted)` | Ausgegraute Elemente / Disabled |
 
-### 📐 Spacing (Lineare Skala)
+### Spacing (Lineare Skala)
 | Variable | Wert (Desktop) | Nutzung |
 | :--- | :--- | :--- |
 | `var(--space-xs)` | 4px | Sehr kleiner Abstand |
@@ -91,7 +91,7 @@ Diese Variablen stehen dir automatisch zur Verfügung:
 | `var(--space-xl)` | 32px | Sektions-Abstand |
 | `var(--space-xxl)` | 64px | Viel Weißraum |
 
-### 🔡 Typografie (Fluid)
+### Typografie (Fluid)
 | Variable | Nutzung |
 | :--- | :--- |
 | `var(--text-s)` | Meta-Text / Kleingedrucktes |
@@ -101,7 +101,19 @@ Diese Variablen stehen dir automatisch zur Verfügung:
 | `var(--text-xxl)` | H2 Überschriften |
 | `var(--text-3xl)` | H1 / Hero Titel |
 
-### ▦ Grid & Layout
+### Border Radius
+| Variable | Wert (Desktop) | Nutzung |
+| :--- | :--- | :--- |
+| `var(--radius-none)` | 0px | Sehr kleiner Radius |
+| `var(--radius-xs)` | 2px | Sehr kleiner Radius |
+| `var(--radius-s)` | 4px | Kleiner Radius |
+| `var(--radius-m)` | 8px | Standard Radius |
+| `var(--radius-l)` | 12px | Großer Radius |
+| `var(--radius-xl)` | 16px | Größerer Radius |
+| `var(--radius-xxl)` | 32px |Noch größerer Radius|
+| `var(--radius-circle)` | 500vh | Kreis-Radius |
+
+### Grid & Layout
 | Variable | Funktion |
 | :--- | :--- |
 | `var(--container-max-width)` | Maximale Breite der Seite |
