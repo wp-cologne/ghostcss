@@ -22,7 +22,7 @@ Du hast zwei Möglichkeiten, Ghost zu nutzen, je nach Projektart:
 
 1.  Klone das Repository:
     ```bash
-    git clone [https://github.com/DEIN-USER/ghost-css.git](https://github.com/DEIN-USER/ghost-css.git)
+    git clone [https://github.com/wp-colgone/ghost.git]([https://github.com/DEIN-USER/ghost-css.git](https://github.com/wp-colgone/ghost.git))
     ```
 2.  Verlinke die CSS-Datei im `<head>` deiner Seite:
     ```html
