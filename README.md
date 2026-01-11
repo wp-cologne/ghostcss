@@ -104,7 +104,7 @@ Diese Variablen stehen dir automatisch zur Verfügung:
 ### Border Radius
 | Variable | Wert (Desktop) | Nutzung |
 | :--- | :--- | :--- |
-| `var(--radius-none)` | 0px | Sehr kleiner Radius |
+| `var(--radius-none)` | 0px | Kein Radius |
 | `var(--radius-xs)` | 2px | Sehr kleiner Radius |
 | `var(--radius-s)` | 4px | Kleiner Radius |
 | `var(--radius-m)` | 8px | Standard Radius |
