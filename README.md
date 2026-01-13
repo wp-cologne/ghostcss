@@ -39,32 +39,9 @@ Du hast zwei Möglichkeiten, Ghost zu nutzen, je nach Projektart:
     </section>
     ```
 
-### Option B: Bricks Builder / WordPress (Tokens Only)
-*Nutze dies, um Bricks mit deinen Variablen zu füttern, ohne dass Framework-Styles (wie Reset oder Grid-Klassen) mit Bricks kollidieren.*
+### Option B: WordPress 
 
-**Schritt 1: CSS einbinden**
-Du kannst den Code entweder kopieren oder die Datei einbinden.
-
-* *Methode 1 (Copy & Paste):*
-    Öffne `css/tokens.css`, kopiere den Inhalt und füge ihn in Bricks unter **Settings → Custom Code → Custom CSS** ein.
-
-* *Methode 2 (functions.php):*
-    Lade die Datei sauber über dein Child-Theme:
-    ```php
-    function enqueue_ghost_tokens() {
-        wp_enqueue_style( 'ghost-tokens', get_stylesheet_directory_uri() . '/ghost-css/css/tokens.css' );
-    }
-    add_action( 'wp_enqueue_scripts', 'enqueue_ghost_tokens' );
-    ```
-
-**Schritt 2: Variablen in Bricks nutzen**
-Nutze jetzt überall in den Eingabefeldern von Bricks deine Variablen (`var(...)`).
-
-* **Breiten:** Theme Styles → Layout → Container Width: `var(--container-max-width)`
-* **Farben:** Background: `var(--primary)`
-* **Schriftgrößen:** Typography → Font Size: `var(--text-xl)`
-* **Gaps:** Layout → Gap: `var(--grid-gap)`
-* **Grid Columns:** Layout → Grid Template Columns: `var(--grid-4)`
+Ghost CSS beinhaltet ein natives WordPress Plugin. Erstelle einen Ordner (ghost-css) unter wp-content/plugins/ und fügte die Dateien und Ordner dieses Repositries hinzu.
 
 ---
 
