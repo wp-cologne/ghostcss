@@ -4,11 +4,11 @@
  * Plugin Name: Ghost CSS
  * Description: The Invisible Architecture for Modern Web Design.
  * Author: Manuel Schwarz
- * Version: 0.1
+ * Version: 0.2-dev1
  */
 
 if (! defined('ABSPATH')) exit;
-define('GHOST_CSS_VERSION', '0.1');
+define('GHOST_CSS_VERSION', '0.2-dev1');
 
 function add_ghost_css_files()
 {
