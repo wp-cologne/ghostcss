@@ -1,9 +1,9 @@
 @layer ghost {
   :root {
-    --primary: #3498db;
+    --primary: #c41e3a;
     --secondary: #2ecc71;
     --text: #1f2937;
-    --bg: #f9fafb;
+    --bg: #53535f;
     --white: #ffffff;
     --dark: #111827;
     --black: #000000;
@@ -90,7 +90,6 @@
 }
 body {
   font-family: system-ui, sans-serif;
-  background-color: var(--body-bg);
   color: var(--body-text);
   font-size: var(--text-m);
 }
@@ -214,7 +213,7 @@ p {
 }
 
 .btn--primary:hover, .btn--primary:focus {
-  background-color: rgb(36.7380753138, 138.7882845188, 207.1619246862);
+  background-color: rgb(176.4, 27, 52.2);
 }
 
 .btn--outline-primary {
@@ -277,7 +276,7 @@ p {
 }
 
 .btn--bg:hover, .btn--bg:focus {
-  background-color: #dbe1e7;
+  background-color: rgb(74.7, 74.7, 85.5);
 }
 
 .btn--outline-bg {
@@ -402,7 +401,7 @@ p {
 .form-select:focus {
   outline: none;
   border-color: var(--primary);
-  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+  box-shadow: 0 0 0 3px rgba(196, 30, 58, 0.2);
 }
 
 .form-textarea:disabled, .form-input:disabled,
@@ -440,6 +439,13 @@ p {
   height: 1.2em;
   accent-color: var(--primary);
   cursor: pointer;
+}
+
+.stretched-link::after {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  content: "";
 }
 
 .margin--none {
