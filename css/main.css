@@ -213,7 +213,7 @@ p {
 }
 
 .btn--primary:hover, .btn--primary:focus {
-  background-color: rgb(176.4, 27, 52.2);
+  background-color: color-mix(in oklch, var(--primary), black 10%);
 }
 
 .btn--outline-primary {
@@ -234,7 +234,7 @@ p {
 }
 
 .btn--secondary:hover, .btn--secondary:focus {
-  background-color: rgb(41.4, 183.6, 101.7);
+  background-color: color-mix(in oklch, var(--secondary), black 10%);
 }
 
 .btn--outline-secondary {
@@ -255,7 +255,7 @@ p {
 }
 
 .btn--text:hover, .btn--text:focus {
-  background-color: rgb(27.9, 36.9, 49.5);
+  background-color: color-mix(in oklch, var(--text), black 10%);
 }
 
 .btn--outline-text {
@@ -276,7 +276,7 @@ p {
 }
 
 .btn--bg:hover, .btn--bg:focus {
-  background-color: rgb(74.7, 74.7, 85.5);
+  background-color: color-mix(in oklch, var(--bg), black 10%);
 }
 
 .btn--outline-bg {
@@ -297,7 +297,7 @@ p {
 }
 
 .btn--white:hover, .btn--white:focus {
-  background-color: rgb(229.5, 229.5, 229.5);
+  background-color: color-mix(in oklch, var(--white), black 10%);
 }
 
 .btn--outline-white {
@@ -318,7 +318,7 @@ p {
 }
 
 .btn--dark:hover, .btn--dark:focus {
-  background-color: rgb(15.3, 21.6, 35.1);
+  background-color: color-mix(in oklch, var(--dark), black 10%);
 }
 
 .btn--outline-dark {
@@ -339,7 +339,7 @@ p {
 }
 
 .btn--black:hover, .btn--black:focus {
-  background-color: black;
+  background-color: color-mix(in oklch, var(--black), black 10%);
 }
 
 .btn--outline-black {
@@ -360,7 +360,7 @@ p {
 }
 
 .btn--muted:hover, .btn--muted:focus {
-  background-color: rgb(202.7739130435, 206.7913043478, 214.8260869565);
+  background-color: color-mix(in oklch, var(--muted), black 10%);
 }
 
 .btn--outline-muted {
